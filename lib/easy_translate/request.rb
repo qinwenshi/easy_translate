@@ -52,7 +52,7 @@ module EasyTranslate
     private
 
     def uri
-      @uri ||= URI.parse("https://translate.grailtravel.com#{path}?#{param_s}")
+      @uri ||= URI.parse("https://google-translate-proxy.every.workers.dev#{path}?#{param_s}")
     end
 
     def http
